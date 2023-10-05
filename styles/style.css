@@ -16,6 +16,8 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  align-items: center;
 }
 
 h1,
@@ -42,12 +44,10 @@ fieldset {
 }
 
 .content {
-  justify-content: center;
   padding: 133px 30px;
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  margin: auto;
   width: 100%;
 }
 
@@ -111,8 +111,8 @@ button:focus {
   object-position: center;
 }
 
-.content__list-item:focus-visible{
-  outline: 1px solid #fff; 
+.content__list-item:focus-visible {
+  outline: 1px solid #fff;
   outline-offset: -1px;
 }
 
