@@ -42,7 +42,8 @@ fieldset {
 }
 
 .content {
-  padding: 133px 20px;
+  justify-content: center;
+  padding: 133px 30px;
   display: flex;
   align-items: flex-end;
   gap: 30px;
